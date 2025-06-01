@@ -1,0 +1,218 @@
+/* Start Global Rules */
+:root {
+  --color-primary: #897ae3;
+  --color-secondary: #e5e2f7;
+  --font-color-1: #101840;
+  --font-color-2: #6d738f;
+  --main-transition: all 0.2s ease-in-out;
+  --header-size: 48px;
+  --paragraph-size: 24px;
+  --padding-btn: 12px;
+  --box-shadow-primary: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+body {
+  font-family: "Almarai", sans-serif !important;
+  background-color: var(--color-secondary) !important;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.custom-btn {
+  background-color: var(--color-primary);
+  color: #ffffff;
+  padding-top: var(--padding-btn);
+  padding-bottom: var(--padding-btn);
+  border-radius: 8px;
+  font-weight: 500;
+  transition: var(--main-transition);
+  border: none;
+  
+}
+
+.custom-btn:hover {
+  box-shadow: var(--box-shadow-primary);
+}
+
+.custom-header {
+  font-size: var(--header-size);
+  font-weight: 700;
+  color: var(--font-color-1);
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
+.custom-paragraph {
+  font-size: var(--paragraph-size);
+  font-weight: 400;
+  color: var(--font-color-2);
+  line-height: 140%;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.custom-paragraph-2 {
+  font-family: 'Amiri', sans-serif;
+  font-size: var(--paragraph-size);
+  font-weight: 400;
+  color: var(--color-primary);
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+@media (max-width: 767.98px) {
+  .custom-header {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .custom-paragraph {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+  }
+}
+
+.padding-x-98 {
+  padding: 98px 0;
+}
+.padding-t-98 {
+  padding-top: 98px;
+}
+
+.content-header {
+  max-width: 734px;
+}
+
+/* End Global Rules */
+/* Start Nav */
+.nav {
+  height: 98px;
+  background-color: #ffffff;
+  color: var(--font-color-2);
+  border-radius: 0 0 24px 24px;
+
+  ul li a {
+    font-size: 18px;
+  }
+  ul li a:hover {
+    color: var(--color-primary);
+    transition: var(--main-transition);
+  }
+  .shopping-cart-img {
+    width: 24px;
+    height: 24px;
+  }
+  .login-btn {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .nav-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+  }
+  .logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--color-primary);
+    transition: var(--main-transition);
+  }
+}
+/* End Nav */
+/* Strat Hero */
+.hero {
+  .hero-content {
+    .content-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      max-width: 668px;
+      
+      .donation-btn {
+        padding-left: 51px;
+        padding-right: 51px;
+      }
+      .tel-btn {
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: white;
+        color: var(--color-primary);
+
+        span {
+          font-size: 16px;
+          font-weight: 400;
+          direction: ltr;
+        }
+
+        img {
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+
+    .custom-button-container {
+      display: flex;
+      border-radius: 8px;
+      overflow: hidden;
+      cursor: pointer;
+      width: fit-content;
+      transition: var(--main-transition);
+    }
+
+    .button-icon-section {
+      background-color: #897ae3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: var(--padding-btn) 10px;
+      img {
+        width: 24px;
+        height: 24px;
+      }
+    }
+
+    .button-text-section {
+      background-color: white;
+      color: #897ae3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: var(--padding-btn) 14px;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 100%;
+    }
+
+    .custom-button-container:hover {
+      box-shadow: var(--box-shadow-primary);
+    }
+  }
+
+  .hero-img img {
+    width: 615px;
+    height: 596px;
+  }
+}
+/* End Hero */
