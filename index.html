@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>task</title>
+    <title>teck place task</title>
     <!-- Css files -->
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/homePage.css" />
     <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/Normalize.css" />
     <!-- Bootstrap 5 CSS CDN -->
     <link
@@ -32,68 +33,68 @@
     />
   </head>
   <body>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm nav z-1 container">
+      <div class="nav-wrapper">
+        <!-- Logo -->
+        <div>
+          <a class="navbar-brand fw-bold logo" href="#">بتور</a>
+        </div>
+        <!-- Toggle for mobile -->
+        <button
+          class="navbar-toggler text-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Nav links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-2">
+            <li class="nav-item">
+              <a class="nav-link" href="/">عن بتور</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">البرامج</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">العناية بالأطراف الصناعية</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">من نحن</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">المقالات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">المركز الإعلامي</a>
+            </li>
+          </ul>
+
+          <!-- Login Button -->
+          <div>
+            <img
+              role="button"
+              class="shopping-cart-img ms-2"
+              src="assets/images/shopping-cart.png"
+              alt="shoping-cart"
+            />
+            <a href="#" class="custom-btn login-btn">تسجيل الدخول</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
     <!-- Start Hero Section -->
     <div class="hero position-relative">
       <div class="container">
-        <!-- Start Navbar -->
-        <nav class="navbar navbar-expand-lg bg-white shadow-sm nav z-1">
-          <div class="nav-wrapper">
-            <!-- Logo -->
-            <div>
-              <a class="navbar-brand fw-bold logo" href="#">بتور</a>
-            </div>
-            <!-- Toggle for mobile -->
-            <button
-              class="navbar-toggler text-light"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- Nav links -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-2">
-                <li class="nav-item">
-                  <a class="nav-link" href="/">عن بتور</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">البرامج</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">العناية بالأطراف الصناعية</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">من نحن</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">المقالات</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">المركز الإعلامي</a>
-                </li>
-              </ul>
-
-              <!-- Login Button -->
-              <div>
-                <img
-                  role="button"
-                  class="shopping-cart-img ms-2"
-                  src="assets/images/shopping-cart.png"
-                  alt="shoping-cart"
-                />
-                <a href="#" class="custom-btn login-btn">تسجيل الدخول</a>
-              </div>
-            </div>
-          </div>
-        </nav>
-        <!-- End Navbar -->
         <!-- Start Hero Content -->
-        <div class="hero-content padding-x-98 position-relative z-1">
+        <div class="hero-content padding-y-98 position-relative z-1">
           <div class="content-wrapper">
             <div>
               <h2 class="custom-header">
@@ -106,7 +107,7 @@
                 ورعاية رفاههم وتمكينهم من الازدهار.
               </p>
             </div>
-            <!-- Start Buttons Field of Hero -->
+            <!-- Start buttons field of hero -->
             <div
               class="d-flex flex-row gap-4 justify-content-md-start justify-content-center"
             >
@@ -120,7 +121,7 @@
             </div>
 
             <div
-              class="position-absolute bottom-0 start-0 padding-x-98 d-md-block d-none"
+              class="position-absolute bottom-0 start-0 padding-y-98 d-md-block d-none"
             >
               <div class="custom-button-container">
                 <div class="button-text-section">التبرع السريع</div>
@@ -142,8 +143,8 @@
     <!-- End Hero Section -->
 
     <!-- Start frist section -->
-    <div class="first-section padding-x-98 bg-white">
-      <div class="container d-flex align-items-center flex-column">
+    <div class="first-section padding-y-98 bg-white">
+      <div class="container reveal d-flex align-items-center flex-column">
         <div class="content-header text-center">
           <p class="custom-paragraph-2">
             تعزيز صحة الأطفال والشباب مبتوري الاطراف وسعادتهم
@@ -227,15 +228,15 @@
     </div>
     <!-- End frist section -->
     <!-- Start second section -->
-    <div class="second-section padding-x-98">
+    <div class="second-section padding-y-98">
       <div class="container d-flex align-items-center flex-column">
-        <div class="content-header text-center">
+        <div class="content-header reveal text-center">
           <p class="custom-paragraph-2">برامج الرعاية الصحية لمبتوري الاطراف</p>
           <h2 class="custom-header">
             الأسباب والبرامج الحيوية في انتظار تبرعاتكم، ادعموا مبتوري الاطراف
           </h2>
         </div>
-        <div class="donation-cards-section pt-5">
+        <div class="donation-cards-section pt-5 reveal">
           <div class="row justify-content-center">
             <div class="col-lg-6 col-md-6 mb-4 d-flex">
               <div class="card donation-card">
@@ -349,8 +350,8 @@
 
     <!-- Start third section -->
     <div class="third-section bg-white">
-      <div class="container stats">
-        <div class="row justify-content-center">
+      <div class="container stats reveal">
+        <div class="row justify-content-center ms-0">
           <div
             class="col-lg-3 col-md-6 col-sm-6 mb-4 d-flex justify-content-center"
           >
@@ -403,7 +404,7 @@
 
       <div class="position-relative">
         <div
-          class="container padding-x-98 d-flex align-items-center flex-column"
+          class="container reveal padding-y-98 d-flex align-items-center flex-column"
         >
           <div class="content-header text-center">
             <p class="custom-paragraph-2">انضم إلينا في إحداث تأثير إيجابي</p>
@@ -411,7 +412,7 @@
               لماذا أخترتنا؟ اكتشف ما لا مثيل له تأثير اختيار جمعيتنا الخيرية
             </h2>
           </div>
-  
+
           <div class="row w-100 pt-4">
             <div class="col-lg-6 col-md-6 mb-4 d-flex">
               <div class="accordion w-100">
@@ -424,7 +425,7 @@
                   <img src="assets/images/arrow-down.png" alt="arrow" />
                 </div>
                 <div>
-                  <p class=" mb-4">
+                  <p class="mb-4">
                     يمكنك التبرع بشكل آمن من خلال موقعنا على الانترنت أو الاتصال
                     بنا للحصول على خيارات أخرى.
                   </p>
@@ -437,13 +438,15 @@
                   </p>
                   <img src="assets/images/arrow-down (1).png" alt="arrow" />
                 </div>
-                <div class="accordion-item d-flex justify-content-between border">
+                <div
+                  class="accordion-item d-flex justify-content-between border"
+                >
                   <p class="custom-paragraph">3-هل تعمل على المستوى الدولي؟</p>
                   <img src="assets/images/arrow-down (1).png" alt="arrow" />
                 </div>
               </div>
             </div>
-  
+
             <div class="col-lg-6 col-md-6 mb-4 d-flex">
               <div class="accordion w-100">
                 <div
@@ -455,7 +458,7 @@
                   <img src="assets/images/arrow-down.png" alt="arrow" />
                 </div>
                 <div>
-                  <p class=" mb-4">
+                  <p class="mb-4">
                     نحن نقدم الرعاية الصحية الأولية والدعم النفسي واجهزة الاطراف
                     الصناعية وخدمات توعية لاساخدام الاطراف الصناعية.
                   </p>
@@ -468,7 +471,9 @@
                   </p>
                   <img src="assets/images/arrow-down (1).png" alt="arrow" />
                 </div>
-                <div class="accordion-item d-flex justify-content-between border">
+                <div
+                  class="accordion-item d-flex justify-content-between border"
+                >
                   <p class="custom-paragraph">
                     6- ما هي الخدمات التي تقدمها لمبتوري الاطراف؟
                   </p>
@@ -477,7 +482,7 @@
               </div>
             </div>
           </div>
-  
+
           <div class="img position-absolute top-0 end-0">
             <img
               src="assets/images/391c94855956511f9f428e48f168d79b8ced7e2a.png"
@@ -488,6 +493,226 @@
       </div>
     </div>
     <!-- End third section -->
+
+    <!-- Start fourth section -->
+    <div class="fourth-section padding-y-98">
+      <div
+        class="container reveal d-flex flex-column flex-lg-row justify-content-between align-items-center"
+      >
+        <div class="content-header text-center text-lg-end mb-3">
+          <p class="custom-paragraph-2">بناء الروابط من خلال أعمال اللطف</p>
+          <h2 class="custom-header">اكتشف آخر التحديثات لدينا وقصص التأثير</h2>
+        </div>
+        <a href="#" class="custom-btn article-btn">عرض جميع المقالات</a>
+      </div>
+
+      <div class="container reveal mt-5">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4 d-flex">
+            <div class="card custom-card">
+              <img
+                src="assets/images/dad55845c8476340da9c7f39ffb675efed1847d1.png"
+                class="card-img-top"
+                alt="Person with prosthetic leg"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  تحويل المجتمعات من خلال المشاريع المستدامة
+                </h5>
+                <p class="card-date">
+                  <i class="far fa-calendar-alt"></i> 21 أغسطس 2023
+                </p>
+                <p class="card-text">
+                  العمل معا لتحقيق أهداف مشتركة. نقوي الروابط بين المجتمع
+                  والمؤسسات لضمان مجتمع مزدهر بشكل أفضل للتغلب على العقبات
+                  والتكيف.
+                </p>
+                <a href="#" class="btn-custom">قراءة أكثر</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 d-flex">
+            <div class="card custom-card">
+              <img
+                src="assets/images/cf6854dd4a6f5264d67f1d2be3f73ff04ccb414e.png"
+                class="card-img-top"
+                alt="Person with prosthetic leg"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  تحويل المجتمعات من خلال المشاريع المستدامة
+                </h5>
+                <p class="card-date">
+                  <i class="far fa-calendar-alt"></i> 21 أغسطس 2023
+                </p>
+                <p class="card-text">
+                  العمل معا لتحقيق أهداف مشتركة. نقوي الروابط بين المجتمع
+                  والمؤسسات لضمان مجتمع مزدهر بشكل أفضل للتغلب على العقبات
+                  والتكيف.
+                </p>
+                <a href="#" class="btn-custom">قراءة أكثر</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 d-flex">
+            <div class="card custom-card">
+              <img
+                src="assets/images/30b0645198eebf6451458511a6207f41c5f29d50.jpg"
+                class="card-img-top"
+                alt="Person with prosthetic leg"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  تحويل المجتمعات من خلال المشاريع المستدامة
+                </h5>
+                <p class="card-date">
+                  <i class="far fa-calendar-alt"></i> 21 أغسطس 2023
+                </p>
+                <p class="card-text">
+                  العمل معا لتحقيق أهداف مشتركة. نقوي الروابط بين المجتمع
+                  والمؤسسات لضمان مجتمع مزدهر بشكل أفضل للتغلب على العقبات
+                  والتكيف.
+                </p>
+                <a href="#" class="btn-custom">قراءة أكثر</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End fourth section -->
+
+    <!-- Start fifth section -->
+    <div class="fifth-section padding-y-98 bg-white">
+      <div class="container reveal d-flex align-items-center flex-column">
+        <div class="content-header text-center mb-4">
+          <p class="custom-paragraph-2">اتصل بنا</p>
+          <h2 class="custom-header">
+            نحن نقدم المساعدة والمساعدة المخصصة لمبتوري الاطراف
+          </h2>
+        </div>
+      </div>
+      <div class="container reveal contact-us-info mt-3">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-6 col-md-6 mb-4 d-flex">
+            <ul>
+              <li
+                class="d-flex align-items-center flex-md-row flex-column gap-4 mb-5"
+              >
+                <img src="assets/images/Group 1000004374 (1).png" alt="" />
+                <div class="text-center text-md-end">
+                  <h3>الرياض - حي المروج</h3>
+                  <p>
+                    ابحث عن العناوين وساعات العمل و المزيد لكل من مواقعنا
+                    والشركات التابعة لنا.
+                  </p>
+                </div>
+              </li>
+              <li
+                class="d-flex align-items-center flex-md-row flex-column gap-4 mb-5"
+              >
+                <img src="assets/images/Group 1000005891.png" alt="" />
+                <div class="text-center text-md-end">
+                  <h3>0112777900 / 0552300321</h3>
+                  <p>
+                    يمكنك التواصل معنا عن طريق الواتساب والتيليجرام.ابحث عن
+                    العناوين وساعات العمل و المزيد لكل من مواقعنا والشركات
+                    التابعة لنا.
+                  </p>
+                </div>
+              </li>
+              <li
+                class="d-flex align-items-center flex-md-row flex-column gap-4"
+              >
+                <img src="assets/images/Group 1000004374 (2).png" alt="" />
+                <div class="text-center text-md-end">
+                  <h3>info@a-ca.sa</h3>
+                  <p>
+                    قبل أن تترك لنا خطًا أو تلتقط الهاتف،قد تجد إجابة في قائمة
+                    الأسئلة الشائعة لدينا.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6 col-md-6 mb-4 d-flex">
+            <div class="container">
+              <section class="contact-form-section">
+                <div class="row">
+                  <div class="contact-form-container">
+                    <h2>هل لديك سؤال أو تعليق؟</h2>
+                    <p class="description">
+                      تواصل معنا من خلال النموذج أدناه ودعنا نبدأ محادثة حول
+                      إحداث فرق.
+                    </p>
+                    <form>
+                      <div class="mb-3">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="name"
+                          placeholder="الاسم"
+                        />
+                      </div>
+                      <div class="mb-3">
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="email"
+                          placeholder="البريد الإلكتروني"
+                        />
+                      </div>
+                      <div class="mb-3">
+                        <textarea
+                          class="form-control"
+                          id="message"
+                          rows="5"
+                          placeholder="الرسالة"
+                        ></textarea>
+                      </div>
+                      <div class="d-flex">
+                        <a href="#" class="custom-btn submit-btn">ارسال</a>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End fifth section -->
+
+    <!-- Start sixth section -->
+    <div class="sixth-section padding-y-98 position-relative">
+      <div class="container reveal d-flex align-items-center flex-column">
+        <div class="content-header text-center mb-4">
+          <p class="custom-paragraph-2">
+            امنح هدية الصحة: ​​تبرع الي مبتوري الاطراف
+          </p>
+          <h2 class="custom-header">
+            تحويل الحياة: دعم الصحة النفسية لمبتوري الاطراف مع تبرعك
+          </h2>
+        </div>
+        <a
+          href="#"
+          class="custom-btn"
+          style="padding-left: 80px; padding-right: 80px"
+          >تبرع الان</a
+        >
+      </div>
+
+      <div class="position-absolute top-0 start-0">
+        <img
+          src="assets/images/391c94855956511f9f428e48f168d79b8ced7e2a.png"
+          alt="photo"
+          style="width: 325px; height: 485px;"
+        />
+      </div>
+    </div>
+    <!-- End sixth section -->
 
     <!-- Start Footer -->
     <footer class="main-footer">
