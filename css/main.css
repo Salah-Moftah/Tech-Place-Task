@@ -45,7 +45,6 @@ a {
   font-weight: 500;
   transition: var(--main-transition);
   border: none;
-  
 }
 
 .custom-btn:hover {
@@ -70,7 +69,7 @@ a {
 }
 
 .custom-paragraph-2 {
-  font-family: 'Amiri', sans-serif;
+  font-family: "Amiri", sans-serif;
   font-size: var(--paragraph-size);
   font-weight: 400;
   color: var(--color-primary);
@@ -115,78 +114,76 @@ a {
 
 /* End Global Rules */
 /* Strat Hero */
-.hero {
-  .hero-content {
-    .content-wrapper {
-      display: flex;
-      flex-direction: column;
-      gap: 24px;
-      max-width: 668px;
-      
-      .donation-btn {
-        padding-left: 51px;
-        padding-right: 51px;
-      }
-      .tel-btn {
-        padding-left: 20px;
-        padding-right: 20px;
-        background-color: white;
-        color: var(--color-primary);
+.hero .hero-content .content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 668px;
+}
 
-        span {
-          font-size: 16px;
-          font-weight: 400;
-          direction: ltr;
-        }
+.hero .hero-content .content-wrapper .donation-btn {
+  padding-left: 51px;
+  padding-right: 51px;
+}
 
-        img {
-          width: 24px;
-          height: 24px;
-        }
-      }
-    }
+.hero .hero-content .content-wrapper .tel-btn {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+  color: var(--color-primary);
+}
 
-    .custom-button-container {
-      display: flex;
-      border-radius: 8px;
-      overflow: hidden;
-      cursor: pointer;
-      width: fit-content;
-      transition: var(--main-transition);
-    }
+.hero .hero-content .content-wrapper .tel-btn span {
+  font-size: 16px;
+  font-weight: 400;
+  direction: ltr;
+}
 
-    .button-icon-section {
-      background-color: #897ae3;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: var(--padding-btn) 10px;
-      img {
-        width: 24px;
-        height: 24px;
-      }
-    }
+.hero .hero-content .content-wrapper .tel-btn img {
+  width: 24px;
+  height: 24px;
+}
 
-    .button-text-section {
-      background-color: white;
-      color: #897ae3;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: var(--padding-btn) 14px;
-      font-size: 18px;
-      font-weight: 700;
-      line-height: 100%;
-    }
+.hero .hero-content .custom-button-container {
+  display: flex;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  width: fit-content;
+  transition: var(--main-transition);
+}
 
-    .custom-button-container:hover {
-      box-shadow: var(--box-shadow-primary);
-    }
-  }
-  
-  .hero-img img {
-    width: 615px;
-    height: 596px;
-  }
+.hero .hero-content .button-icon-section {
+  background-color: #897ae3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--padding-btn) 10px;
+}
+
+.hero .hero-content .button-icon-section img {
+  width: 24px;
+  height: 24px;
+}
+
+.hero .hero-content .button-text-section {
+  background-color: white;
+  color: #897ae3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--padding-btn) 14px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.hero .hero-content .custom-button-container:hover {
+  box-shadow: var(--box-shadow-primary);
+}
+
+.hero .hero-img img {
+  width: 615px;
+  height: 596px;
 }
 /* End Hero */

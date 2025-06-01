@@ -33,11 +33,11 @@
   margin-bottom: 25px;
   border: 1px solid var(--icon-border-color);
   flex-shrink: 0;
+}
 
-  img {
-    width: 54px;
-    height: 54px;
-  }
+.feature-icon-wrapper img {
+  width: 54px;
+  height: 54px;
 }
 
 .feature-icon-wrapper i {
@@ -65,7 +65,8 @@
 
 .our-partners-section img {
   width: 135px;
-  height: 45px;
+  height: auto;
+  flex-shrink: 0;
 }
 
 @media (max-width: 991.98px) {
@@ -256,17 +257,16 @@
 .third-section {
   .stats {
     padding: 57px 0 0 0;
-
-    img {
-      width: 64px;
-      height: 64px;
-    }
-    p {
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 150%;
-      color: var(--font-color-1);
-    }
+  }
+  .stats img {
+    width: 64px;
+    height: 64px;
+  }
+  .stats p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--font-color-1);
   }
 
   .accordion img {
@@ -400,26 +400,24 @@
 /* End fourth section */
 /* Start fifth section */
 .fifth-section {
-  .contact-us-info {
-    ul {
-      padding: 0 !important;
-    }
-    ul li img {
-      width: 74px;
-      height: 74px;
-    }
-    ul li h3 {
-      font-size: 32px;
-      font-weight: 400;
-      line-height: 140%;
-      color: var(--font-color-1);
-    }
-    ul li p {
-      font-size: 18px;
-      font-weight: 400;
-      line-height: 140%;
-      color: var(--font-color-2);
-    }
+  .contact-us-info ul {
+    padding: 0 !important;
+  }
+  .contact-us-info ul li img {
+    width: 74px;
+    height: 74px;
+  }
+  .contact-us-info ul li h3 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 140%;
+    color: var(--font-color-1);
+  }
+  .contact-us-info ul li p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+    color: var(--font-color-2);
   }
 
   .contact-form-container {
