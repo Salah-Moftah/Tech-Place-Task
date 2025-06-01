@@ -5,33 +5,33 @@
   color: var(--font-color-2);
   border-radius: 0 0 24px 24px;
 
-  ul li a {
-    font-size: 18px;
-  }
-  ul li a:hover {
-    color: var(--color-primary);
-    transition: var(--main-transition);
-  }
-  .shopping-cart-img {
-    width: 24px;
-    height: 24px;
-  }
-  .login-btn {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-  .nav-wrapper {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 24px;
-  }
-  .logo {
-    font-size: 30px;
-    font-weight: bold;
-    color: var(--color-primary);
-    transition: var(--main-transition);
-  }
+}
+.nav ul li a {
+  font-size: 18px;
+}
+.nav ul li a:hover {
+  color: var(--color-primary);
+  transition: var(--main-transition);
+}
+.nav .shopping-cart-img {
+  width: 24px;
+  height: 24px;
+}
+.nav .login-btn {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.nav .nav-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+.nav .logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--color-primary);
+  transition: var(--main-transition);
 }
 /* End Nav */
